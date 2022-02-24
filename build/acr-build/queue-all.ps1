@@ -33,4 +33,3 @@ $services |% {
 }
 
 # Basket.API
-# CAMBIO MINIMO ACEPTABLE
