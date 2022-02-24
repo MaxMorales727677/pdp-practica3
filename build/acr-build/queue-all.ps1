@@ -32,10 +32,5 @@ $services |% {
     az acr build-task create --registry $acrName --name $bname --image ${bimg}:$gitBranch --context $gitContext --branch $gitBranch --git-access-token $patToken --file $bfile
 }
 
-<<<<<<< HEAD
-# Basket.API
-# CAMBIO MINIMO POSIBLE
-=======
 # Basket.API 
-# Cambio
->>>>>>> 0c2dc4eb65050a784758785aa141cf0d74144742
+# MINIMO CAMBIO ACEPTABLE
